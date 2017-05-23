@@ -281,3 +281,26 @@ a:hover{
 .btn:hover {
   color: rgb(175,30,44);
 }
+
+#preloader {
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color: rgb(205,81,81)	;
+  z-index:2299;
+  height: 100vh;
+
+}
+
+#preloader img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300px;
+  height: 300px;
+  margin-top: -150px; /* Half the height */
+  margin-left: -150px; /* Half the width */
+
+}
