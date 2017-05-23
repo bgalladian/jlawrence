@@ -257,3 +257,10 @@ footer {
   width: 450px;
   height: 250px;
 }
+
+.description {
+  align-content: center;
+  text-align: justify;
+  /*width: 450px;*/
+  margin: 0 auto;
+}
